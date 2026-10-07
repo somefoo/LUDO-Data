@@ -1,0 +1,17 @@
+number_of_training_samples: 10000
+number_of_test_samples: 16
+number_of_nrrds: 0
+
+maximum_depth: 1000
+
+# Some scenes have race conditions, this variable can be used to create the data sequentially
+run_sequentially: false
+
+# Path to scene
+scene_path: scenes/example/stanford_bunny/bunny
+
+# The folder in which the training data will be stored
+output_base_path: /tmp/ludo_example/stanford_bunny
+
+# Override output folder name (if null, the scene name will be used)
+override_output_name: null
